@@ -1,0 +1,66 @@
+
+
+.text-login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: black;
+}
+.text-password{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color:black;
+}
+
+.img-banner{
+    border-radius: 50%; /* para arredondar uma imagem*/
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    border: 5px solid rgb(10, 10, 10);
+}
+
+
+body{
+    margin: 0;
+}
+    #fundo-login{
+        
+        margin: 0;
+        background-image:url(imagem/img_fundo.jpg);  
+        background-size: cover;
+        width: 100vw;
+        height: 100vh
+    }
+    @media(max-width:375px){
+        .img-html{
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text-login{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .text-password{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        a{
+            display: flex;
+            justify-content: center;   
+            align-items: center;
+            text-decoration: none; 
+        }
+
+    }
+    @media(max-width: 375px){
+        .img-banner{
+            display: flex;
+            justify-content: center;   
+            align-items: center; 
+            border-radius: 20px;
+        }
+    }
